@@ -1,0 +1,15 @@
+declared-services:
+  knitbot_conversation:
+    label: conversation
+    plan: Standard
+  knit_cloudant:
+    label: cloudantNoSQLDB
+    plan: Shared  
+applications:
+- services:
+  - knit_cloudant
+  - knitbot_conversation
+  name: knitbot_conversation
+  command: node server.js
+  path: .
+  memory: 512M
