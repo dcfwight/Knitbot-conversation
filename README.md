@@ -1,5 +1,5 @@
 ## Knitbot artificially intelligent chatbot
-### developed by Doug Wight of CognitoCo - dcfwight@gmail.com
+### developed by Doug Wight of CognitoCo/ Favoris - dcfwight@protonmail.com
 ---
 ### Aims
 1. Capture user input.
